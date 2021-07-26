@@ -47,7 +47,7 @@
     "spriteId": {"name":"sEnemyTickR","path":"sprites/sEnemyTickR/sEnemyTickR.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 5.0,
+    "playbackSpeed": 7.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
