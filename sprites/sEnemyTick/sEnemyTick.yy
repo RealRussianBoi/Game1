@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Enemy",
-    "path": "folders/Sprites/Enemy.yy",
+    "name": "Ticks",
+    "path": "folders/Sprites/Enemy/Ticks.yy",
   },
   "resourceVersion": "1.0",
   "name": "sEnemyTick",
