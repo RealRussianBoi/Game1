@@ -48,8 +48,11 @@ sprite_index = sEnemyTickR;
 if (hsp != 0) image_xscale = sign(hsp);
 
 
- 
-
+if (flash > 0)
+{
+ sprite_index = sEnemyTickWhiteRunning;
+flash--
+}
 
 
 

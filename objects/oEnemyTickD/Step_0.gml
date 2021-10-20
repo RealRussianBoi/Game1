@@ -35,3 +35,17 @@ if (done == 0){
 
 
 }
+
+if(done==1){
+waitTime++
+}
+
+if(waitTime==120){
+instance_destroy();	
+}
+
+if(waitTime==121){
+waitTime=0;	
+}
+
+
