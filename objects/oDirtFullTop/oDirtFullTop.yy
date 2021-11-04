@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Obstacles",
-    "path": "folders/Objects/Obstacles.yy",
+    "name": "Dirt",
+    "path": "folders/Objects/Obstacles/Dirt.yy",
   },
   "resourceVersion": "1.0",
   "name": "oDirtFullTop",
