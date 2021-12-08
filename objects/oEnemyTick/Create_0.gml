@@ -1,6 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
-
+/// @description Basic Stats
 
 vsp = 0;
 walksp = 3;

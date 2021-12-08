@@ -20,11 +20,14 @@ yTo = follow.y;
 // of that subtraction would be divided by 25, so that instead of snapping onto where the viewpoint was supposed to be, the camera snaps 1/25ths of the way
 // there every frame, making a smooth transition for the camera to follow the player.  
 
-x += (xTo - x ) / 25;
-y += (yTo - y ) / 25
+x += (xTo - x ) / 19;
+y += (yTo - y ) / 19;
 
-//The clamp puts a min and max value as to where the camera can float. In this case we made the camera not float too far out of our game room's walls. 
-x = clamp(x,view_w_half,room_width - view_w_half);
+//Screenshake
+x += random_range(-shake_remain, shake_remain);
+y += random_range(-shake_remain, shake_remain);
+shake_remain = max(0,shake_remain - ((1/shake_length)*shake_magnitude));
+
 
 
 //Update Camera View
@@ -33,9 +36,17 @@ camera_set_view_pos(cam, x-view_w_half, y-view_h_half);
 
 
 
+if(layer_exists("Stars")){
+	
+	layer_x("Stars",x/10);
+	
+}
 
-
-
+if(layer_exists("Stars")){
+	
+	layer_y("Stars",y/10);
+	
+}
 
 
 

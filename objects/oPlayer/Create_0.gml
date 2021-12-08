@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Basic Stats
 // You can write your code in this editor
 
 hsp = 0;

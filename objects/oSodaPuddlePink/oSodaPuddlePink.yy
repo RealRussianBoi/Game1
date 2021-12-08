@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sCan3",
-    "path": "sprites/sCan3/sCan3.yy",
+    "name": "sSodaPuddlePink",
+    "path": "sprites/sSodaPuddlePink/sSodaPuddlePink.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objects/Obstacles/Factory/Floor/FloorTrash.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oCan3",
+  "name": "oSodaPuddlePink",
   "tags": [],
   "resourceType": "GMObject",
 }
