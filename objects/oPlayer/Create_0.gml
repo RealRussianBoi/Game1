@@ -5,4 +5,5 @@ hsp = 0;
 vsp = 0;
 verticalsp = 4;
 walksp = 4;
+hascontrol = true;
 

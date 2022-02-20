@@ -20,7 +20,7 @@ if(mouse_check_button(mb_left)) and (firingdelay < 0 ){
 //into here, it would apply to the If statement it is inside of. 
 with (instance_create_layer(x,y, "PistolBullets", oPistolBullet)){
 //the With code above creates a temporary layer that is edited according to the commands in these squiggly brackets.
-	speed = 29; 
+	speed = 18; 
 	direction = other.image_angle + random_range(-2,2);
 	image_angle = direction;
 }

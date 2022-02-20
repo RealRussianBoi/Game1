@@ -1,3 +1,6 @@
+
+
+	
 //Code takes player movement from keyboard
 key_left = keyboard_check(vk_left) or keyboard_check(ord("A"));
 key_right = keyboard_check(vk_right) or keyboard_check(ord("D"));
@@ -16,10 +19,11 @@ if (key_up) or (key_down)
 		vsp = vsp;
 }
 
+
 //Horizontal collision
 if (place_meeting(x+hsp,y,oWall))
 {
-while(!place_meeting(x+sign(hsp), y,oWall))
+while(!place_meeting(x+sign(hsp),y,oWall))
 {
 	x = x+sign(hsp); 
 }
@@ -60,12 +64,7 @@ if (vsp != 0) {
 
 if (hsp != 0) image_xscale = sign(hsp);
 
-
  
-
-
-
-
 
 
 
