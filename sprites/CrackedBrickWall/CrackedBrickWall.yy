@@ -138,7 +138,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"CrackedBrickWall","path":"sprites/CrackedBrickWall/CrackedBrickWall.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "CrackedBrickWall",
     "tags": [],
     "resourceType": "GMSequence",
@@ -149,7 +149,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Tiles",
-    "path": "folders/Sprites/Obstacles/Factory Sprites/Tiles.yy",
+    "path": "folders/Sprites/Backround(FloorAndSuch)/Obstacles/Factory Sprites/Tiles.yy",
   },
   "resourceVersion": "1.0",
   "name": "CrackedBrickWall",

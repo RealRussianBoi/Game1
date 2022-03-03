@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sEnemyTick","path":"sprites/sEnemyTick/sEnemyTick.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sEnemyTick",
     "tags": [],
     "resourceType": "GMSequence",

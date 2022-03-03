@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sPlayerROld","path":"sprites/sPlayerROld/sPlayerROld.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sPlayerROld",
     "tags": [],
     "resourceType": "GMSequence",

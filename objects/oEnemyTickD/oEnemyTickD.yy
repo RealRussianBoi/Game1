@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Objects/Enemies.yy",
+    "name": "Ticks",
+    "path": "folders/Objects/Enemies/Ticks.yy",
   },
   "resourceVersion": "1.0",
   "name": "oEnemyTickD",

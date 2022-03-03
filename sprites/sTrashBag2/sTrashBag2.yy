@@ -138,7 +138,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sTrashBag2","path":"sprites/sTrashBag2/sTrashBag2.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sTrashBag2",
     "tags": [],
     "resourceType": "GMSequence",
@@ -149,7 +149,7 @@
   "nineSlice": null,
   "parent": {
     "name": "FloorTrash",
-    "path": "folders/Sprites/Obstacles/Factory Sprites/FloorTrash.yy",
+    "path": "folders/Sprites/Backround(FloorAndSuch)/Obstacles/FloorTrash.yy",
   },
   "resourceVersion": "1.0",
   "name": "sTrashBag2",

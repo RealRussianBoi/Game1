@@ -44,14 +44,15 @@ if (vsp != 0) {
     }
 }
 
-if (hsp != 0) image_xscale = sign(hsp);
-
+if (hsp != 0) image_xscale = sign(hsp) * size;
+image_yscale = size;
 
 if (flash > 0)
 {
  sprite_index = sEnemyTickWhiteRunning;
-flash--
+flash--;
 }
+
 
 
 

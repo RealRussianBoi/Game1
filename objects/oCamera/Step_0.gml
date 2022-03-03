@@ -6,6 +6,11 @@ if(instance_exists(follow)){
 
 xTo = follow.x;
 yTo = follow.y;
+	
+	if((follow).object_index == oPlayerD) {
+		x = xTo;
+		y = yTo;
+	}
 
 }
 
@@ -20,8 +25,8 @@ yTo = follow.y;
 // of that subtraction would be divided by 25, so that instead of snapping onto where the viewpoint was supposed to be, the camera snaps 1/25ths of the way
 // there every frame, making a smooth transition for the camera to follow the player.  
 
-x += (xTo - x ) / 19;
-y += (yTo - y ) / 19;
+x += (xTo - x ) / 1; //The lower the dividing number, the less screen tear there is. 
+y += (yTo - y ) / 1; 
 
 //Screenshake
 x += random_range(-shake_remain, shake_remain);

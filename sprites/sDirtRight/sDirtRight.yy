@@ -60,7 +60,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sDirtRight","path":"sprites/sDirtRight/sDirtRight.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sDirtRight",
     "tags": [],
     "resourceType": "GMSequence",
@@ -72,7 +72,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Dirt",
-    "path": "folders/Sprites/Obstacles/Dirt.yy",
+    "path": "folders/Sprites/Backround(FloorAndSuch)/Obstacles/Dirt.yy",
   },
   "resourceVersion": "1.0",
   "name": "sDirtRight",

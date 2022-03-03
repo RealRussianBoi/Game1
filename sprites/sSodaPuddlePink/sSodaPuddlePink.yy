@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sSodaPuddlePink","path":"sprites/sSodaPuddlePink/sSodaPuddlePink.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sSodaPuddlePink",
     "tags": [],
     "resourceType": "GMSequence",
@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "FloorTrash",
-    "path": "folders/Sprites/Obstacles/Factory Sprites/FloorTrash.yy",
+    "path": "folders/Sprites/Backround(FloorAndSuch)/Obstacles/FloorTrash.yy",
   },
   "resourceVersion": "1.0",
   "name": "sSodaPuddlePink",

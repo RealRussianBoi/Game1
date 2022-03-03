@@ -60,7 +60,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sDirtFullTop","path":"sprites/sDirtFullTop/sDirtFullTop.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sDirtFullTop",
     "tags": [],
     "resourceType": "GMSequence",
@@ -72,7 +72,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Dirt",
-    "path": "folders/Sprites/Obstacles/Dirt.yy",
+    "path": "folders/Sprites/Backround(FloorAndSuch)/Obstacles/Dirt.yy",
   },
   "resourceVersion": "1.0",
   "name": "sDirtFullTop",

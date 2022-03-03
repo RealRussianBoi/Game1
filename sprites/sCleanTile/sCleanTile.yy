@@ -138,7 +138,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sCleanTile","path":"sprites/sCleanTile/sCleanTile.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sCleanTile",
     "tags": [],
     "resourceType": "GMSequence",
@@ -149,7 +149,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Floor Tiles",
-    "path": "folders/Sprites/Obstacles/Factory Sprites/Floor Tiles.yy",
+    "path": "folders/Sprites/Backround(FloorAndSuch)/Obstacles/Factory Sprites/Floor Tiles.yy",
   },
   "resourceVersion": "1.0",
   "name": "sCleanTile",

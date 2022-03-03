@@ -138,7 +138,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sAsteroids","path":"sprites/sAsteroids/sAsteroids.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sAsteroids",
     "tags": [],
     "resourceType": "GMSequence",

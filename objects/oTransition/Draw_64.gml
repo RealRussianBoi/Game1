@@ -14,4 +14,3 @@ if ( mode != TRANS_MODE.OFF){
 
 
 
-

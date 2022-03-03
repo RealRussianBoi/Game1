@@ -138,7 +138,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sPistol","path":"sprites/sPistol/sPistol.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sPistol",
     "tags": [],
     "resourceType": "GMSequence",

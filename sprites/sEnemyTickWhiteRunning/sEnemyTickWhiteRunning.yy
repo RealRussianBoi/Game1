@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sEnemyTickWhiteRunning","path":"sprites/sEnemyTickWhiteRunning/sEnemyTickWhiteRunning.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sEnemyTickWhiteRunning",
     "tags": [],
     "resourceType": "GMSequence",
