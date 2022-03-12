@@ -22,6 +22,22 @@ if (menu_control){
 		menu_control = false;
 		
 	}
+	
+	var mouse_y_gui = device_mouse_y_to_gui(0);
+	if(mouse_y_gui < menu_y) and (mouse_y_gui > menu_top) and (device_mouse_x_to_gui(0) + 300 > menu_x) {
+		
+		menu_cursor = (menu_y - mouse_y_gui) div (menu_itemheight * 1.5)
+			
+			if (mouse_check_button_pressed(mb_left)){
+				
+				menu_x_target = gui_width + 300;	
+				menu_committed = menu_cursor;
+				ScreenShake(4,30);
+				menu_control = false;
+				
+			}
+	}
+	
 }
 
 if (menu_x > gui_width+150) and (menu_committed != -1){

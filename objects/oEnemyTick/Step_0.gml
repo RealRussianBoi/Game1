@@ -2,7 +2,7 @@
 //Horizontal Collision
 
 if (place_meeting(x+hsp,y,oWall))
-{
+{	
 while(!place_meeting(x+sign(hsp), y,oWall))
 {
 	x = x+sign(hsp); 
@@ -16,10 +16,10 @@ x = x + hsp;
 
 if (place_meeting(x, y + vsp, oWall)) {
     while (!place_meeting(x, y + sign(vsp), oWall)) {
-        y = y + sign(vsp);
+        y = y + sign(vsp);		
     }
     vsp = 0;
-
+	
 }
 y = y + vsp;
 
@@ -27,7 +27,6 @@ y = y + vsp;
 //Animation (Character Mini Movements)
 
 if (vsp != 0) {
- 
    image_speed = 1;
     if (vsp == 0) {
         sprite_index = sEnemyTick;

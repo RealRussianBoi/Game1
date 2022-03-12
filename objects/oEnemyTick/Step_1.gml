@@ -1,8 +1,9 @@
 if (hp <= 0) {
 
-
-
-
+	instance_create_layer(x,y,"Coins",oCoin);
+	with(oCoin){
+	CoinSize = other.size;
+	}
 	with (instance_create_layer(x,y,layer,oEnemyTickD)){
 		direction = other.hitfrom;
 		hsp = lengthdir_x(3, direction);
@@ -11,7 +12,7 @@ if (hp <= 0) {
 		image_yscale = other.size;
 	
 		
-	}
+	} 
 	
 	
 	instance_destroy();

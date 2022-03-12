@@ -31,7 +31,7 @@
     "path": "folders/Objects/StatusIndicators.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oPlayerHP",
+  "name": "oEnemyHP",
   "tags": [],
   "resourceType": "GMObject",
 }
