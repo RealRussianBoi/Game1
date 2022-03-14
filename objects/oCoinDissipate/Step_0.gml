@@ -1,13 +1,5 @@
 if (sChange = false){
-image_xscale = CoinSize;
-image_yscale = CoinSize;
+image_xscale = dCoinSize;
+image_yscale = dCoinSize;
 sChange = true;
 }
-
-if(image_index == 3){
-	instance_destroy();	
-}
-
-
-
-

@@ -1,2 +1,2 @@
-CoinSize = 1;
+dCoinSize = 0;
 sChange = false;
