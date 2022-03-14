@@ -1,7 +1,7 @@
 instance_create_layer(x,y,"Coins",oCoinDissipate);
 	
 	with(oCoinDissipate){
-		dCoinSize = other.CoinSize;
+		dCoinSize = other.newSize;
 	}
 
 	instance_destroy();
