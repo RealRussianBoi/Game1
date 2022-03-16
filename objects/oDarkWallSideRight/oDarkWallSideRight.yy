@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sDarkWall",
-    "path": "sprites/sDarkWall/sDarkWall.yy",
+    "name": "sDarkWallSideRight",
+    "path": "sprites/sDarkWallSideRight/sDarkWallSideRight.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Objects/Obstacles/Dark.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oDarkWallTop",
+  "name": "oDarkWallSideRight",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,16 +1,10 @@
 {
-  "spriteId": {
-    "name": "sDarkWall",
-    "path": "sprites/sDarkWall/sDarkWall.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "pCollidable",
-    "path": "objects/pCollidable/pCollidable.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -23,15 +17,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Dark",
-    "path": "folders/Objects/Obstacles/Dark.yy",
+    "name": "Parent Objects",
+    "path": "folders/Objects/Parent Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oDarkWallTop",
+  "name": "pCollidable",
   "tags": [],
   "resourceType": "GMObject",
 }

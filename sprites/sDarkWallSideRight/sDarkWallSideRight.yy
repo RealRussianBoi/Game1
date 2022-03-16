@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 8,
+  "bbox_right": 35,
   "bbox_top": 0,
-  "bbox_bottom": 63,
+  "bbox_bottom": 255,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 64,
-  "height": 64,
+  "width": 36,
+  "height": 256,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"bada8acc-07e8-4ea7-aab3-4378883d47ab","path":"sprites/sDarkWallSideL/sDarkWallSideL.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bada8acc-07e8-4ea7-aab3-4378883d47ab","path":"sprites/sDarkWallSideL/sDarkWallSideL.yy",},"LayerId":{"name":"5fcb5766-540d-405e-b468-5b3b4ca338b9","path":"sprites/sDarkWallSideL/sDarkWallSideL.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sDarkWallSideL","path":"sprites/sDarkWallSideL/sDarkWallSideL.yy",},"resourceVersion":"1.0","name":"bada8acc-07e8-4ea7-aab3-4378883d47ab","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"bada8acc-07e8-4ea7-aab3-4378883d47ab","path":"sprites/sDarkWallSideRight/sDarkWallSideRight.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"bada8acc-07e8-4ea7-aab3-4378883d47ab","path":"sprites/sDarkWallSideRight/sDarkWallSideRight.yy",},"LayerId":{"name":"5fcb5766-540d-405e-b468-5b3b4ca338b9","path":"sprites/sDarkWallSideRight/sDarkWallSideRight.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sDarkWallSideRight","path":"sprites/sDarkWallSideRight/sDarkWallSideRight.yy",},"resourceVersion":"1.0","name":"bada8acc-07e8-4ea7-aab3-4378883d47ab","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sDarkWallSideL","path":"sprites/sDarkWallSideL/sDarkWallSideL.yy",},
+    "spriteId": {"name":"sDarkWallSideRight","path":"sprites/sDarkWallSideRight/sDarkWallSideRight.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"e1328e8f-37d0-4d20-a22d-61f3f7dc688e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bada8acc-07e8-4ea7-aab3-4378883d47ab","path":"sprites/sDarkWallSideL/sDarkWallSideL.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e1328e8f-37d0-4d20-a22d-61f3f7dc688e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bada8acc-07e8-4ea7-aab3-4378883d47ab","path":"sprites/sDarkWallSideRight/sDarkWallSideRight.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sDarkWallSideL","path":"sprites/sDarkWallSideL/sDarkWallSideL.yy",},
+    "parent": {"name":"sDarkWallSideRight","path":"sprites/sDarkWallSideRight/sDarkWallSideRight.yy",},
     "resourceVersion": "1.4",
-    "name": "sDarkWallSideL",
+    "name": "sDarkWallSideRight",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/Backround(FloorAndSuch)/Dark/DarkWall/Sides.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sDarkWallSideL",
+  "name": "sDarkWallSideRight",
   "tags": [],
   "resourceType": "GMSprite",
 }

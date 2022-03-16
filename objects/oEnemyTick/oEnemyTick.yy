@@ -7,7 +7,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "pShootable",
+    "path": "objects/pShootable/pShootable.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -29,13 +32,13 @@
     {"varType":0,"value":"0.3","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"grv","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"3","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"walksp","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"walksp","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"hsp","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":0,"value":"3","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"hp","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":0,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"flash","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"hitfrom","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"size","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"damage","tags":[],"resourceType":"GMObjectProperty",},
   ],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"hp","path":"objects/pShootable/pShootable.yy",},"objectId":{"name":"pShootable","path":"objects/pShootable/pShootable.yy",},"value":"3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
   "parent": {
     "name": "Ticks",
     "path": "folders/Objects/Enemies/Ticks.yy",

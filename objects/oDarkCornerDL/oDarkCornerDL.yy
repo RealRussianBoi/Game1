@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sDarkWall",
-    "path": "sprites/sDarkWall/sDarkWall.yy",
+    "name": "sDarkCornerWallDL",
+    "path": "sprites/sDarkCornerWallDL/sDarkCornerWallDL.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,11 +27,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Dark",
-    "path": "folders/Objects/Obstacles/Dark.yy",
+    "name": "Corners",
+    "path": "folders/Objects/Obstacles/Dark/Corners.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oDarkWallTop",
+  "name": "oDarkCornerDL",
   "tags": [],
   "resourceType": "GMObject",
 }

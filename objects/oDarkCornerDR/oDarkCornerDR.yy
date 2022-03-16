@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "sPlayerHP",
-    "path": "sprites/sPlayerHP/sPlayerHP.yy",
+    "name": "sDarkCornerWallDR",
+    "path": "sprites/sDarkCornerWallDR/sDarkCornerWallDR.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "pCollidable",
+    "path": "objects/pCollidable/pCollidable.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -20,18 +23,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "StatusIndicators",
-    "path": "folders/Objects/StatusIndicators.yy",
+    "name": "Corners",
+    "path": "folders/Objects/Obstacles/Dark/Corners.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oPlayerHealthBar",
+  "name": "oDarkCornerDR",
   "tags": [],
   "resourceType": "GMObject",
 }
