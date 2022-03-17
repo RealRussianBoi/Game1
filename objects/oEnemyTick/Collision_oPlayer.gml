@@ -1,17 +1,9 @@
-/// @desc Damage and Flash
-
-
-	
-if(oPlayer.damagecooldown >= 20) {
-	oPlayer.takedamage = true;
-}else{
-	oPlayer.takedamage = false;	
+with(oPlayer){
+		repeat(5){
+			
+				with(instance_create_layer(x,y,"FloorParticles",oFloorDust)){
+					image_angle++;
+				}
+			
+			}
 }
-
-	if(oPlayer.takedamage = true) {
-	oPlayer.hp--;
-	oPlayer.flash = 2;
-	oPlayer.damagecooldown = 0;
-	
-}
-

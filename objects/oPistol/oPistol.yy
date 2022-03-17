@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Guns&Ammo",
-    "path": "folders/Objects/Guns&Ammo.yy",
+    "name": "Guns",
+    "path": "folders/Objects/Guns&Ammo/Guns.yy",
   },
   "resourceVersion": "1.0",
   "name": "oPistol",

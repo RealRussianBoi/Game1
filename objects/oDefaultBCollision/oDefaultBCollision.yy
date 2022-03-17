@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sPistolBullet",
-    "path": "sprites/sPistolBullet/sPistolBullet.yy",
+    "name": "sDefaultBCollision",
+    "path": "sprites/sDefaultBCollision/sDefaultBCollision.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,17 +21,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oEnemyTick","path":"objects/oEnemyTick/oEnemyTick.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":1,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Ammo",
-    "path": "folders/Objects/Guns&Ammo/Ammo.yy",
+    "name": "Collision Effects",
+    "path": "folders/Objects/Guns&Ammo/Collision Effects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oPistolBullet",
+  "name": "oDefaultBCollision",
   "tags": [],
   "resourceType": "GMObject",
 }

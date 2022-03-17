@@ -148,8 +148,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Guns&Ammo",
-    "path": "folders/Sprites/Guns&Ammo.yy",
+    "name": "Guns",
+    "path": "folders/Sprites/Guns&Ammo/Guns.yy",
   },
   "resourceVersion": "1.0",
   "name": "sPistol",
