@@ -1,5 +1,5 @@
 {
-  "bboxMode": 0,
+  "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
   "origin": 9,
@@ -9,7 +9,7 @@
   "swfPrecision": 2.525,
   "bbox_left": 89,
   "bbox_right": 150,
-  "bbox_top": 129,
+  "bbox_top": 135,
   "bbox_bottom": 205,
   "HTile": false,
   "VTile": false,

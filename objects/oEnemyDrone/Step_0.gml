@@ -1,0 +1,63 @@
+
+//Horizontal Collision
+
+if (place_meeting(x+hsp,y,pCollidable))
+{	
+while(!place_meeting(x+sign(hsp), y,pCollidable))
+{
+	x = x+sign(hsp); 
+}
+
+hsp = 0;
+}
+x = x + hsp;
+
+//Vertical collision
+
+if (place_meeting(x, y + vsp, pCollidable)) {
+    while (!place_meeting(x, y + sign(vsp), pCollidable)) {
+        y = y + sign(vsp);		
+    }
+    vsp = 0;
+	
+}
+y = y + vsp;
+
+
+//Animation (Character Mini Movements)
+
+if (vsp != 0) {
+   image_speed = 1;
+    if (vsp == 0) {
+        sprite_index = sEnemyDrone;
+    } else {
+        sprite_index = sEnemyDroneR;
+    }
+ 
+} else {
+    image_speed = 1;
+    if (hsp == 0) {
+        sprite_index = sEnemyDrone;
+    } else {
+        sprite_index = sEnemyDroneR;
+    }
+}
+
+if (hsp != 0) image_xscale = sign(hsp) * size;
+image_yscale = size;
+
+if (flash > 0)
+{
+ sprite_index = sEnemyDroneFlash;
+flash--;
+}
+
+
+
+
+
+
+
+
+
+
