@@ -1,10 +1,11 @@
-instance_create_layer(x,y,"Coins",oCoinDissipate);
-	
-	with(oCoinDissipate){
-		dCoinSize = other.newSize;
-	}
+global.Coins = global.Coins + Value;
 
-	instance_destroy();
+with(instance_create_layer(x,y,"Coins",oCoinDissipate)){
+	dCoinSize = other.CoinSize;
+	with(oGame) cointextscale = 1.5;
+}
+
+instance_destroy();
 	
 	
 	

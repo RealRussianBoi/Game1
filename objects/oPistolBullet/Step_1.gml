@@ -10,7 +10,6 @@ if (place_meeting (x, y, pCollidable)){
 		
 	}
 	spd = 0;
-	instance_change(oDefaultBCollision,true);
-	
+	instance_change(choose(oDefaultBCollision,oDefaultCollision2),true);
 }
 

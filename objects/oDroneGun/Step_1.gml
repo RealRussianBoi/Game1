@@ -1,3 +1,10 @@
+if(BurstCount >= 4) WillShoot = false;
+if(WillShoot = false) WillShootReset++;
+if (WillShootReset >= 180){
+	WillShoot = true;
+	WillShootReset = 0;
+	BurstCount = 0;
+}
 x = owner.x;
 y = owner.y + 15;
 
@@ -10,20 +17,27 @@ if(instance_exists(oPlayer)){
 	if(point_distance(oPlayer.x,oPlayer.y,x,y) < 600){
 
 		image_angle = point_direction(x,y,oPlayer.x,oPlayer.y)
-		countdown--;
-		if(countdown <= 0){
-			countdown = countdownrate;
-		
-
-				with (instance_create_layer(x,y, "PistolBullets", oEnemyAmmo)){
-						spd = 5; 
-						direction = other.image_angle + random_range(-2,2);
-						image_angle = direction;
-
-				}
-			}
-		}
+		countdown--;	
 			
+			if(countdown <= 0) and (WillShoot == true){
+				countdown = countdownrate;
+				
+
+					with (instance_create_layer(x,y, "PistolBullets", oEnemyAmmo)){
+							spd = 5; 
+							direction = other.image_angle + random_range(-2,2);
+							image_angle = direction;
+							other.BurstCount++;
+
+					}
+	
+				}
+				
+			
+		}
+	
+	
+	
 }
 	
 

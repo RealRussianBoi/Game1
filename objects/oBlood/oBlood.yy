@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Blood",
-    "path": "folders/Objects/Obstacles/Particles/Blood.yy",
+    "path": "folders/Objects/Particles/Blood.yy",
   },
   "resourceVersion": "1.0",
   "name": "oBlood",

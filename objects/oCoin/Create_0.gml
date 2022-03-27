@@ -1,4 +1,2 @@
 CoinSize = 0;
-sChange = false;
-newSize = 0;
-
+Value = 0

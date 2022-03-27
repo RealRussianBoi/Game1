@@ -9,9 +9,12 @@ key_down = keyboard_check_pressed(vk_down) or keyboard_check(ord("S"));
 //This stuff calculates movement for each fps
 var move = key_right - key_left;
 var moveV = key_down - key_up;
-hsp = move * walksp;
 
-vsp = moveV * verticalsp;
+hsp = (move * walksp) + gunRecoilX;
+gunRecoilX = 0;
+
+vsp = (moveV * verticalsp) + gunRecoilY;
+gunRecoilY = 0;
 
 if (key_up) or (key_down)
 {

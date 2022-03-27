@@ -12,7 +12,7 @@ if (mode != TRANS_MODE.OFF){
 				switch (mode){
 					
 					case TRANS_MODE.INTRO: {
-						mode = TRANS_MODE.OFF
+						mode = TRANS_MODE.OFF;
 						break;
 					}
 					case TRANS_MODE.NEXT: {

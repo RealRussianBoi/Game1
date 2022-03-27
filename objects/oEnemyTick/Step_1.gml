@@ -1,8 +1,13 @@
 if (hp <= 0) {
-
-	instance_create_layer(x,y,"Coins",oCoin);
-	with(oCoin){
+	
+	var Chance = 1; //irandom_range(1,5);
+	
+	if (Chance = 1){
+	with(instance_create_layer(x,y,"Coins",oCoin)){
 	CoinSize = other.size;
+	Value = CoinSize;
+	if (CoinSize >= 2) Value = Value * CoinSize;
+		} 
 	}
 	with (instance_create_layer(x,y,layer,oEnemyTickD)){
 		direction = other.hitfrom;
@@ -14,10 +19,9 @@ if (hp <= 0) {
 		
 	} 
 	
-	
+	instance_create_layer(x,y,"Particles",oMobDeath);
+	instance_create_layer(x,y,"Particles",oMobDeath2);
 	instance_destroy();
 
-
-
-
 }
+
