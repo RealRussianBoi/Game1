@@ -1,2 +1,6 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @desc Free list from memory
+
+ds_list_destroy(waves);
+
+
+
