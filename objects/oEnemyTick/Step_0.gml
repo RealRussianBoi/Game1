@@ -1,28 +1,30 @@
-
-//Horizontal Collision
-
-if (place_meeting(x+hsp,y,pCollidable))
-{	
-while(!place_meeting(x+sign(hsp), y,pCollidable))
+if(instance_exists(oPlayer)){
+	var dirX = sign(oPlayer.x - x);
+	var dirY = sign(oPlayer.y - y);
+	hsp = dirX;
+	vsp = dirY;
+	if (stopmoving == false){
+		hsp = dirX;
+		vsp = dirY;
+	} else {
+		hsp = 0;
+		vsp = 0;
+	}
+	
+	
+	if (place_meeting(x+hsp,y,pCollidable))
 {
-	x = x+sign(hsp); 
-}
+	hsp = 0;
+} else hsp = dirX;
 
-hsp = 0;
-}
-x = x + hsp;
-
-//Vertical collision
 
 if (place_meeting(x, y + vsp, pCollidable)) {
-    while (!place_meeting(x, y + sign(vsp), pCollidable)) {
-        y = y + sign(vsp);		
-    }
     vsp = 0;
+} else vsp = dirY;
 	
+	x += hsp * walksp;
+	y += vsp * walksp;
 }
-y = y + vsp;
-
 
 //Animation (Character Mini Movements)
 
@@ -56,16 +58,6 @@ instance_create_layer(x,y,"Particles",oMobDeath2);
 
 
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
