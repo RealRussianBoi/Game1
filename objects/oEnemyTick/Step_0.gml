@@ -50,6 +50,11 @@ if (flash > 0)
 {
  sprite_index = sEnemyTickWhiteRunning;
 flash--;
+
+instance_create_layer(x,y,"Particles",oMobDeath);
+instance_create_layer(x,y,"Particles",oMobDeath2);
+
+
 }
 
 

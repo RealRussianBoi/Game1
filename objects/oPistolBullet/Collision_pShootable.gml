@@ -13,10 +13,6 @@ with (other) {
 
 instance_destroy();
 
-instance_create_layer(x,y,"Particles",oMobDeath);
-instance_create_layer(x,y,"Particles",oMobDeath2);
-
-
 
 
 

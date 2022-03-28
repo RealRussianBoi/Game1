@@ -71,6 +71,8 @@
     {"id":{"name":"sDirtWallRight","path":"sprites/sDirtWallRight/sDirtWallRight.yy",},"order":6,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
     {"id":{"name":"fMenu","path":"fonts/fMenu/fMenu.yy",},"order":0,},
+    {"id":{"name":"sGunSmoke","path":"sprites/sGunSmoke/sGunSmoke.yy",},"order":0,},
+    {"id":{"name":"oGunSmoke","path":"objects/oGunSmoke/oGunSmoke.yy",},"order":0,},
     {"id":{"name":"sEnemyTickD","path":"sprites/sEnemyTickD/sEnemyTickD.yy",},"order":2,},
     {"id":{"name":"sEnemyTickA","path":"sprites/sEnemyTickA/sEnemyTickA.yy",},"order":1,},
     {"id":{"name":"sDarkWallBottom","path":"sprites/sDarkWallBottom/sDarkWallBottom.yy",},"order":0,},
@@ -232,6 +234,8 @@
     {"folderPath":"folders/Sprites/Particles/MobDeaths.yy","order":1,"resourceVersion":"1.0","name":"MobDeaths","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Particles/Mob Deaths.yy","order":1,"resourceVersion":"1.0","name":"Mob Deaths","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/MIscellanious.yy","order":14,"resourceVersion":"1.0","name":"MIscellanious","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Particles/Gun Particles.yy","order":2,"resourceVersion":"1.0","name":"Gun Particles","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Particles/Gun Effect.yy","order":2,"resourceVersion":"1.0","name":"Gun Effect","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
