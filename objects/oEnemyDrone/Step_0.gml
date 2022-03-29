@@ -1,27 +1,30 @@
+if(instance_exists(oPlayer) and (hp > 0)) {//1
+	var dirX = sign(oPlayer.x - x);
+	var dirY = sign(oPlayer.y - y);
+	hsp = dirX * stopmoving;
+	vsp = dirY * stopmoving;
 
-//Horizontal Collision
-
-if (place_meeting(x+hsp,y,pCollidable))
-{	
-while(!place_meeting(x+sign(hsp), y,pCollidable))
+	}//1 
+	else {
+		dirX = 0;
+		dirY = 0;
+}
+	
+	if (place_meeting(x+hsp,y,pCollidable))
 {
-	x = x+sign(hsp); 
+	hsp = 0;
+} else {
+	hsp = dirX;
 }
-
-hsp = 0;
-}
-x = x + hsp;
-
-//Vertical collision
 
 if (place_meeting(x, y + vsp, pCollidable)) {
-    while (!place_meeting(x, y + sign(vsp), pCollidable)) {
-        y = y + sign(vsp);		
-    }
     vsp = 0;
-	
+} else {
+	vsp = dirY;
 }
-y = y + vsp;
+
+	x += hsp * walksp;
+	y += vsp * walksp;
 
 
 //Animation (Character Mini Movements)
@@ -50,9 +53,12 @@ if (flash > 0)
 {
  sprite_index = sEnemyDroneFlash;
 flash--;
+
+instance_create_layer(x,y,"Particles",oMobDeath);
+instance_create_layer(x,y,"Particles",oMobDeath2);
+
+
 }
-
-
 
 
 

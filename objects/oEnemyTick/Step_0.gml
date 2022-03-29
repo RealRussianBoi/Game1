@@ -1,30 +1,29 @@
-if(instance_exists(oPlayer)){
+if(instance_exists(oPlayer) and (hp > 0)) {//1
 	var dirX = sign(oPlayer.x - x);
 	var dirY = sign(oPlayer.y - y);
-	hsp = dirX;
-	vsp = dirY;
-	if (stopmoving == false){
-		hsp = dirX;
-		vsp = dirY;
-	} else {
-		hsp = 0;
-		vsp = 0;
-	}
-	
-	
-	if (place_meeting(x+hsp,y,pCollidable))
-{
-	hsp = 0;
-} else hsp = dirX;
+	hsp = dirX * stopmoving;
+	vsp = dirY * stopmoving;
 
+	}//1 
+	else {
+		dirX = 0;
+		dirY = 0;
+}
+	
+	if (place_meeting(x+hsp,y,pCollidable)) {
+	hsp = 0;
+} else {
+	hsp = dirX;
+}
 
 if (place_meeting(x, y + vsp, pCollidable)) {
     vsp = 0;
-} else vsp = dirY;
-	
+} else {
+	vsp = dirY;
+}
+
 	x += hsp * walksp;
 	y += vsp * walksp;
-}
 
 //Animation (Character Mini Movements)
 
