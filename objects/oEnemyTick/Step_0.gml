@@ -1,4 +1,5 @@
 if(instance_exists(oPlayer) and (hp > 0)) {//1
+	
 	var dirX = sign(oPlayer.x - x);
 	var dirY = sign(oPlayer.y - y);
 	hsp = dirX * stopmoving;
@@ -44,7 +45,12 @@ if (vsp != 0) {
     }
 }
 
-if (hsp != 0) image_xscale = sign(hsp) * size;
+if (hsp != 0){
+	image_xscale = sign(hsp) * size;
+} else {
+	image_xscale = 1 * size;	
+}
+
 image_yscale = size;
 
 if (flash > 0)

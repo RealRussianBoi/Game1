@@ -1,8 +1,18 @@
 if(instance_exists(oPlayer) and (hp > 0)) {//1
 	var dirX = sign(oPlayer.x - x);
 	var dirY = sign(oPlayer.y - y);
+	var dToPlayer = min(300,(300 * (size * 1.1)));
 	hsp = dirX * stopmoving;
 	vsp = dirY * stopmoving;
+
+	if(distance_to_object(oPlayer) < dToPlayer){
+		stopmoving = 0;
+	} else {
+		stopmoving = 1;	
+	}
+
+	x += hsp * walksp;
+	y += vsp * walksp;
 
 	}//1 
 	else {
@@ -22,10 +32,6 @@ if (place_meeting(x, y + vsp, pCollidable)) {
 } else {
 	vsp = dirY;
 }
-
-	x += hsp * walksp;
-	y += vsp * walksp;
-
 
 //Animation (Character Mini Movements)
 
