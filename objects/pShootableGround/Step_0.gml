@@ -33,9 +33,9 @@ if (movement != 0) {
  
    image_speed = 1;
     if (movement == 0) {
-        sprite_index = sEnemyTick;
+        sprite_index = STATIONARY_ENEMY_SPRITE;
     } else {
-        sprite_index = sEnemyTickR;
+        sprite_index = ANIMATED_ENEMY_SPRITE;
     }
 }
 
@@ -52,19 +52,13 @@ image_yscale = size;
 
 if (flash > 0)
 {
- sprite_index = sEnemyTickWhiteRunning;
+ sprite_index = ENEMY_FLASH_SPRITE_HERE;
 flash--;
 
 instance_create_layer(x,y,"Particles",oMobDeath);
 instance_create_layer(x,y,"Particles",oMobDeath2);
 
 }
-
-
-
-
-
-
 
 
 
