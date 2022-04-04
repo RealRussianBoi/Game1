@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "pShootableGround",
-    "path": "objects/pShootableGround/pShootableGround.yy",
+    "name": "pShootable",
+    "path": "objects/pShootable/pShootable.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

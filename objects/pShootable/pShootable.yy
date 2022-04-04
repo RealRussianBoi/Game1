@@ -35,7 +35,7 @@
     "path": "folders/Objects/Parent Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "pShootableGround",
+  "name": "pShootable",
   "tags": [],
   "resourceType": "GMObject",
 }

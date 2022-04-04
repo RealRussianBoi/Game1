@@ -1,16 +1,10 @@
 {
-  "spriteId": {
-    "name": "sDarkFloor",
-    "path": "sprites/sDarkFloor/sDarkFloor.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "pFloor",
-    "path": "objects/pFloor/pFloor.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -29,11 +23,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Dark",
-    "path": "folders/Objects/Obstacles/Dark.yy",
+    "name": "Parent Objects",
+    "path": "folders/Objects/Parent Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oDarkFloor",
+  "name": "pFloor",
   "tags": [],
   "resourceType": "GMObject",
 }

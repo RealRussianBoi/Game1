@@ -1,15 +1,12 @@
-if(instance_exists(oPlayer) and (hp > 0)) {//1
+if(instance_exists(oPlayer)) {//1
+
+
 	var dirX = sign(oPlayer.x - x);
 	var dirY = sign(oPlayer.y - y);
+	var movement = (dirX + dirY);
 	var dToPlayer = min(300,(300 * (size * 1.1)));
 	hsp = dirX * stopmoving;
 	vsp = dirY * stopmoving;
-
-	if(distance_to_object(oPlayer) < dToPlayer){
-		stopmoving = 0;
-	} else {
-		stopmoving = 1;	
-	}
 
 	x += hsp * walksp;
 	y += vsp * walksp;
@@ -18,7 +15,14 @@ if(instance_exists(oPlayer) and (hp > 0)) {//1
 	else {
 		dirX = 0;
 		dirY = 0;
+		movement = 0;
 }
+
+if(distance_to_object(oPlayer) < dToPlayer){
+		stopmoving = 0;
+	} else {
+		stopmoving = 1;	
+	}
 	
 	if (place_meeting(x+hsp,y,pCollidable))
 {
@@ -35,17 +39,10 @@ if (place_meeting(x, y + vsp, pCollidable)) {
 
 //Animation (Character Mini Movements)
 
-if (vsp != 0) {
-   image_speed = 1;
-    if (vsp == 0) {
-        sprite_index = sEnemyDrone;
-    } else {
-        sprite_index = sEnemyDroneR;
-    }
+if (movement != 0) {
  
-} else {
-    image_speed = 1;
-    if (hsp == 0) {
+   image_speed = 1;
+    if (movement == 0) {
         sprite_index = sEnemyDrone;
     } else {
         sprite_index = sEnemyDroneR;

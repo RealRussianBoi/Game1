@@ -43,21 +43,24 @@ if (movement != 0) {
 
 if (hsp != 0){
 	image_xscale = sign(hsp) * size;
-} else {
-	image_xscale = 1 * size;	
 }
+
 image_yscale = size;
 
 //Animation (Character Mini Movements)
 
-if (flash > 0)
-{
+if ((flash > 0) and (movement != 0)) {
  sprite_index = sEnemyTickWhiteRunning;
 flash--;
 
 instance_create_layer(x,y,"Particles",oMobDeath);
 instance_create_layer(x,y,"Particles",oMobDeath2);
 
+} else if ((flash > 0 ) and (movement == 0)) {
+	
+	sprite_index = sEnemyTickWhiteRunningStill;
+	flash--;
+	
 }
 
 
