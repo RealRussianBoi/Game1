@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sBlood",
-    "path": "sprites/sBlood/sBlood.yy",
+    "name": "sSpawnEffects",
+    "path": "sprites/sSpawnEffects/sSpawnEffects.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,18 +21,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Blood",
-    "path": "folders/Objects/Particles and Effects/Blood.yy",
+    "name": "Enemy Spawn Effects",
+    "path": "folders/Objects/Particles and Effects/Enemy Spawn Effects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oBlood",
+  "name": "oEnemySpawnEffect",
   "tags": [],
   "resourceType": "GMObject",
 }

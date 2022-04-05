@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Gun Effect",
-    "path": "folders/Objects/Particles/Gun Effect.yy",
+    "path": "folders/Objects/Particles and Effects/Gun Effect.yy",
   },
   "resourceVersion": "1.0",
   "name": "oGunSmoke",

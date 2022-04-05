@@ -106,7 +106,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Gun Particles",
-    "path": "folders/Sprites/Particles/Gun Particles.yy",
+    "path": "folders/Sprites/Particles and Effects/Gun Particles.yy",
   },
   "resourceVersion": "1.0",
   "name": "sGunSmoke",

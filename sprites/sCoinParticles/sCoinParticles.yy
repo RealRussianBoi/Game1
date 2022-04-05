@@ -106,7 +106,7 @@
   "nineSlice": null,
   "parent": {
     "name": "LootParticles",
-    "path": "folders/Sprites/Particles/LootParticles.yy",
+    "path": "folders/Sprites/Particles and Effects/LootParticles.yy",
   },
   "resourceVersion": "1.0",
   "name": "sCoinParticles",

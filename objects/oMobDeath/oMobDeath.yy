@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Mob Deaths",
-    "path": "folders/Objects/Particles/Mob Deaths.yy",
+    "path": "folders/Objects/Particles and Effects/Mob Deaths.yy",
   },
   "resourceVersion": "1.0",
   "name": "oMobDeath",

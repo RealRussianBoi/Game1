@@ -106,7 +106,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Blood",
-    "path": "folders/Sprites/Particles/Blood.yy",
+    "path": "folders/Sprites/Particles and Effects/Blood.yy",
   },
   "resourceVersion": "1.0",
   "name": "sBlood",

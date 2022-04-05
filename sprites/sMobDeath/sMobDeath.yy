@@ -106,7 +106,7 @@
   "nineSlice": null,
   "parent": {
     "name": "MobDeaths",
-    "path": "folders/Sprites/Particles/MobDeaths.yy",
+    "path": "folders/Sprites/Particles and Effects/MobDeaths.yy",
   },
   "resourceVersion": "1.0",
   "name": "sMobDeath",

@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Loot Particles",
-    "path": "folders/Objects/Particles/Loot Particles.yy",
+    "path": "folders/Objects/Particles and Effects/Loot Particles.yy",
   },
   "resourceVersion": "1.0",
   "name": "oCoinParticles",
