@@ -13,5 +13,9 @@ function BotEnemies() {
 		}
 		
 	}
-
+	
+	if(global.EnemyQuantity <= 0) {
+		other.WaveStart = false;	
+	}
+	
 }

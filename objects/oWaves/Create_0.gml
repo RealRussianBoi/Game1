@@ -4,10 +4,10 @@ WaveDelayReset = WaveDelay;
 WaveStart = false;
 TileNum = instance_number(pFloor);
 TileQuantity = max(0,TileNum);
-SpawnDelay = 100;
+SpawnDelay = 20;
 SpawnDelayReset = SpawnDelay;
 randomTile = irandom_range(0,TileNum);
 Floors = instance_find(pFloor,TileQuantity);
-EnemyQuantity = 10 * global.WaveNumber;
+global.EnemyQuantity = 10 * global.WaveNumber;
 
 

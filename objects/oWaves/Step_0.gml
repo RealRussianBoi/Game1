@@ -19,8 +19,9 @@ if(instance_exists(oPlayer) and (room != rMenu)){
 	if(WaveStart == true){
 			randomTile = irandom_range(0,TileNum);
 			Floors = instance_find(pFloor,randomTile);
-			EnemyQuantity = 10 * global.WaveNumber;
+			global.EnemyQuantity = 10 * global.WaveNumber;
 			
+			if(global.EnemyQuantity > 0) { 
 			with(Floors){
 				
 				if(next_to_wall == true){
@@ -28,18 +29,14 @@ if(instance_exists(oPlayer) and (room != rMenu)){
 				} else if (next_to_wall == false){
 					other.SpawnDelay--;
 					if(other.SpawnDelay <= 0){
-						if(other.EnemyQuantity > 0){
-							other.EnemyQuantity--;
+						if(global.EnemyQuantity > 0){
+							global.EnemyQuantity--;
 							other.SpawnDelay = other.SpawnDelayReset;
 							BotEnemies();
-						} else { 
-							other.WaveStart = false;	
-						}
-						
-					}
-					
-				}
-				
+							}
+						}	
+					}	
+				}	
 			}
 		}
 	}	
