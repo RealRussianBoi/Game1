@@ -3,4 +3,3 @@ countdown = countdownrate;
 BurstCount = 0;
 WillShoot = true;
 WillShootReset = 0;
-

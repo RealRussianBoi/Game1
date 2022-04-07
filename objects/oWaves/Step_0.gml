@@ -1,7 +1,7 @@
 if(instance_exists(oPlayer) and (room != rMenu)){
 #region WaveStart == False
-
-	if(WaveStart == false){
+		
+	if(WaveStart == false){		
 		WaveDelay--;
 		if (WaveDelay <= 0){
 			WaveDelay = WaveDelayReset; 
@@ -18,8 +18,14 @@ if(instance_exists(oPlayer) and (room != rMenu)){
 #region WaveStart == True
 
 	if(WaveStart == true){
-			randomTile = irandom_range(0,TileNum);
+			randomTile = irandom_range(1,TileNum);
 			Floors = instance_find(pFloor,randomTile);
+			
+			if(global.EnemyQuantity <= 0) {
+			if(!instance_exists(pShootable)){
+				other.WaveStart = false;
+				}
+			}
 			
 			if(global.EnemyQuantity > 0) { 
 			with(Floors){

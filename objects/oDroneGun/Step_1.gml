@@ -5,8 +5,10 @@ if (WillShootReset >= 180){
 	WillShootReset = 0;
 	BurstCount = 0;
 }
+if(instance_exists(owner)){
 x = owner.x;
 y = owner.y + 15;
+} else instance_destroy();
 
 image_xscale = abs(owner.image_xscale);
 image_yscale = abs(owner.image_yscale);
