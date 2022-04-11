@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "SlugSlime",
-    "path": "folders/Sprites/Particles and Effects/SlugSlime.yy",
+    "name": "SlugParticles",
+    "path": "folders/Sprites/Particles and Effects/SlugParticles.yy",
   },
   "resourceVersion": "1.0",
   "name": "sBotSlugSlime",

@@ -26,11 +26,12 @@ if(instance_exists(oPlayer)){
 				
 
 					with (instance_create_layer(x,y, "PistolBullets", oEnemyAmmo)){
-							spd = 5; 
+							spd = 5 * abs(other.image_xscale); 
 							direction = other.image_angle + random_range(-2,2);
 							image_angle = direction;
+							owner = other.owner;
 							other.BurstCount++;
-
+							
 					}
 	
 				}

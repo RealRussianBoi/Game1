@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "pShootable",
-    "path": "objects/pShootable/pShootable.yy",
+    "name": "pShootableAirborne",
+    "path": "objects/pShootableAirborne/pShootableAirborne.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

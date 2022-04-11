@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "SlugSlime",
-    "path": "folders/Objects/Particles and Effects/SlugSlime.yy",
+    "name": "SlugParticles",
+    "path": "folders/Objects/Particles and Effects/SlugParticles.yy",
   },
   "resourceVersion": "1.0",
   "name": "oBotSlugSlime",
