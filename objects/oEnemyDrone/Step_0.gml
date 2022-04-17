@@ -16,6 +16,7 @@ if(instance_exists(oPlayer)) {//1
 		dirX = 0;
 		dirY = 0;
 		movement = 0;
+		dToPlayer = 0;
 }
 
 if(distance_to_object(oPlayer) < dToPlayer){

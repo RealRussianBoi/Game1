@@ -9,7 +9,7 @@ if (hp <= 0) {
 	if (CoinSize >= 2) Value = Value * CoinSize;
 		} 
 	}
-	with (instance_create_layer(x,y,layer,oEnemyDroneD)){
+	with (instance_create_layer(x,y,layer,oEnemyElectroBotD)){
 		direction = other.hitfrom;
 		hsp = lengthdir_x(3, direction);
 		vsp = lengthdir_y(3, direction) -2;
@@ -22,7 +22,6 @@ if (hp <= 0) {
 instance_create_layer(x,y,"Particles",oMobDeath);
 instance_create_layer(x,y,"Particles",oMobDeath2);
 	
-	instance_destroy(DroneGun);
 	instance_destroy();
 
 

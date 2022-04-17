@@ -1,29 +1,30 @@
 if(instance_exists(oPlayer)) {//1
 
-
 	var dirX = sign(oPlayer.x - x);
 	var dirY = sign(oPlayer.y - y);
 	var movement = (dirX + dirY);
-	var dToPlayer = min(100,(100 * (size * 1.1)));
+	var dToPlayer = 300 * size;
 	hsp = dirX * stopmoving;
 	vsp = dirY * stopmoving;
 
 	x += hsp * walksp;
 	y += vsp * walksp;
 
+	
 	}//1 
 	else {
 		dirX = 0;
 		dirY = 0;
 		movement = 0;
+		dToPlayer = 0;
 }
 
-if(distance_to_object(oPlayer) < dToPlayer){
-		stopmoving = 0;
-	} else {
-		stopmoving = 1;	
-	}
-	
+if(point_distance(oPlayer.x,oPlayer.y,x,y) >= 1){	
+		Attack = true;
+	} 
+
+if(Attack = true) EnemyElectroBotAttackScript();
+
 	if (place_meeting(x+hsp,y,pCollidable))
 {
 	hsp = 0;
@@ -54,7 +55,7 @@ image_yscale = size;
 
 if (flash > 0) and (movement = 0)
 {
- sprite_index = sEnemyDroneFlash;
+ sprite_index = sEnemyElectroBotFlash;
 flash--;
 
 instance_create_layer(x,y,"Particles",oMobDeath);
@@ -62,7 +63,7 @@ instance_create_layer(x,y,"Particles",oMobDeath2);
 
 } else if (flash != 0) and (movement != 0) {
 
-sprite_index = sEnemyDroneFlash;
+sprite_index = sEnemyElectroBotRFlash;
 flash--;
 
 instance_create_layer(x,y,"Particles",oMobDeath);
@@ -70,7 +71,14 @@ instance_create_layer(x,y,"Particles",oMobDeath2);
 	
 }
 
-
+if(BurstCount >= 2) WillShoot = false; Attack = false;
+if(WillShoot = false) WillShootReset++;
+if (WillShootReset >= 180){
+	WillShoot = true;
+	WillShootReset = 0;
+	BurstCount = 0;
+	
+}
 
 
 

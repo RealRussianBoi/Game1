@@ -14,7 +14,7 @@ other.time++;
 if (other.time == 80){
 	if (hascontrol) {
 		hascontrol = false;
-		SlideTransition(TRANS_MODE.GOTO,Room4);
+		SlideTransition(TRANS_MODE.GOTO,Room2);
 	}
 }
 

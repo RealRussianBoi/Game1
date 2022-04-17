@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "ElectroBot",
-    "path": "folders/Sprites/Enemy/ElectroBot.yy",
+    "name": "EnemyAmmo",
+    "path": "folders/Sprites/Guns&Ammo/Ammo/EnemyAmmo.yy",
   },
   "resourceVersion": "1.0",
   "name": "sEnemyElectroBotEnergyBall",
