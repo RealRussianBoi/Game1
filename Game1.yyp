@@ -72,6 +72,7 @@
     {"id":{"name":"sDirtRight","path":"sprites/sDirtRight/sDirtRight.yy",},"order":4,},
     {"id":{"name":"oDirtFullTop","path":"objects/oDirtFullTop/oDirtFullTop.yy",},"order":1,},
     {"id":{"name":"oEnemySpawnEffect","path":"objects/oEnemySpawnEffect/oEnemySpawnEffect.yy",},"order":0,},
+    {"id":{"name":"oElectroBotBallExplosion","path":"objects/oElectroBotBallExplosion/oElectroBotBallExplosion.yy",},"order":3,},
     {"id":{"name":"sCoinParticles","path":"sprites/sCoinParticles/sCoinParticles.yy",},"order":0,},
     {"id":{"name":"sDirt","path":"sprites/sDirt/sDirt.yy",},"order":0,},
     {"id":{"name":"ScreenShake","path":"scripts/ScreenShake/ScreenShake.yy",},"order":0,},

@@ -13,6 +13,7 @@ if (place_meeting (x, y, pCollidable)){
 	repeat(100){
 		instance_create_layer(x,y,"Particles",oEnemyElectroBotExplosion);
 	}
+	instance_create_layer(x,y,"Particles",oElectroBotBallExplosion);
 	
 	instance_change(oEnemyBCollision,true);
 	

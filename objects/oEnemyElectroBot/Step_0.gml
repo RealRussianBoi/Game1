@@ -1,5 +1,13 @@
-if(instance_exists(oPlayer)) {//1
 
+
+switch (Attack){
+	
+	case false:
+	
+	#region Case False Start
+
+if(instance_exists(oPlayer)) {//1
+	
 	var dirX = sign(oPlayer.x - x);
 	var dirY = sign(oPlayer.y - y);
 	var movement = (dirX + dirY);
@@ -18,12 +26,6 @@ if(instance_exists(oPlayer)) {//1
 		movement = 0;
 		dToPlayer = 0;
 }
-
-if(point_distance(oPlayer.x,oPlayer.y,x,y) >= 1){	
-		Attack = true;
-	} 
-
-if(Attack = true) EnemyElectroBotAttackScript();
 
 	if (place_meeting(x+hsp,y,pCollidable))
 {
@@ -80,7 +82,20 @@ if (WillShootReset >= 180){
 	
 }
 
+if(distance_to_object(oPlayer) < dToPlayer){
+	Attack = true;	
+}
 
+#endregion Case False End
+	
+	break;
+
+	case true:
+	
+	EnemyElectroBotAttackScript();
+	
+	break;
+}
 
 
 

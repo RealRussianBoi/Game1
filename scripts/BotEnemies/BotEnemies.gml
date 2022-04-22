@@ -3,7 +3,7 @@
 
 function BotEnemies() {
 	
-	var EnemyOptions = choose(/*oEnemyDroneBig,oEnemyTickBig,oEnemyLungeSlugBig*/ oEnemyElectroBotBig);
+	var EnemyOptions = choose(oEnemyDroneBig,oEnemyTickBig,oEnemyLungeSlugBig,oEnemyElectroBotBig);
 	
 #region Ground Enemies
 	
