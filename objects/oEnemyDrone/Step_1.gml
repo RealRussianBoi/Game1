@@ -1,6 +1,6 @@
 if (hp <= 0) {
 	
-	var Chance = irandom_range(1,5);
+	var Chance = irandom_range(1,20);
 	
 	if (Chance = 1){
 	with(instance_create_layer(x,y,"Coins",oCoin)){

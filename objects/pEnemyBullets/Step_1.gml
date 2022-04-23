@@ -1,5 +1,4 @@
-image_xscale = owner.image_xscale;
-image_yscale = owner.image_yscale;
+
 x += lengthdir_x(spd,direction);
 y += lengthdir_y(spd,direction);
 

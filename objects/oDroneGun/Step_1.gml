@@ -31,6 +31,8 @@ if(instance_exists(oPlayer)){
 							image_angle = direction;
 							owner = other.owner;
 							other.BurstCount++;
+							image_xscale = other.image_xscale;
+							image_yscale = other.image_yscale;
 							
 					}
 	

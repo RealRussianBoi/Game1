@@ -73,14 +73,6 @@ instance_create_layer(x,y,"Particles",oMobDeath2);
 	
 }
 
-if(BurstCount >= 2) WillShoot = false; Attack = false;
-if(WillShoot = false) WillShootReset++;
-if (WillShootReset >= 180){
-	WillShoot = true;
-	WillShootReset = 0;
-	BurstCount = 0;
-	
-}
 
 if(distance_to_object(oPlayer) < dToPlayer){
 	Attack = true;	

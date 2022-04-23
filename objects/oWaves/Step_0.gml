@@ -3,13 +3,15 @@ if(instance_exists(oPlayer) and (room != rMenu)){
 		
 	if(WaveStart == false){		
 		WaveDelay--;
+		// I made the game restart once it hit wave 20!!!! LOOK HERE IF YOU ARE LOOKING FOR REASON OF THE GAME ENDING!!!
+		if(global.WaveNumber = 20) game_restart();
 		if (WaveDelay <= 0){
 			WaveDelay = WaveDelayReset; 
-			TileNum = instance_number(pFloor);
+			TileNum = instance_number(oDarkFloor);
 			TileQuantity = max(0,TileNum);
 			WaveStart = true;
 			global.WaveNumber++;
-			global.EnemyQuantity = 10 * global.WaveNumber;
+			global.EnemyQuantity = 10 + global.WaveNumber;
 		
 	}
 }
@@ -19,8 +21,7 @@ if(instance_exists(oPlayer) and (room != rMenu)){
 
 	if(WaveStart == true){
 			randomTile = irandom_range(1,TileNum);
-			Floors = instance_find(pFloor,randomTile);
-			
+			Floors = instance_find(oDarkFloor,randomTile);
 			if(global.EnemyQuantity <= 0) {
 			if(!instance_exists(pShootable)){
 				other.WaveStart = false;

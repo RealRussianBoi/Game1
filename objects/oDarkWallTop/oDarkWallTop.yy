@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "pCollidable",
-    "path": "objects/pCollidable/pCollidable.yy",
+    "name": "pDarkWalls1",
+    "path": "objects/pDarkWalls1/pDarkWalls1.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Dark",
-    "path": "folders/Objects/Obstacles/Dark.yy",
+    "name": "Walls",
+    "path": "folders/Objects/Obstacles/Dark/Walls.yy",
   },
   "resourceVersion": "1.0",
   "name": "oDarkWallTop",

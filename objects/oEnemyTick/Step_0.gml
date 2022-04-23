@@ -56,12 +56,12 @@ flash--;
 instance_create_layer(x,y,"Particles",oMobDeath);
 instance_create_layer(x,y,"Particles",oMobDeath2);
 
-} else if ((flash > 0 ) and (movement == 0)) {
+} else if ((flash > 0 ) and (movement = 0)) {
 	
 	sprite_index = sEnemyTickWhiteRunningStill;
 	flash--;
 	
-}
+} 
 
 
 
