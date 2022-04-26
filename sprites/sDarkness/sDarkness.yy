@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Dark",
-    "path": "folders/Sprites/Backround(FloorAndSuch)/Dark.yy",
+    "name": "Darkness",
+    "path": "folders/Sprites/Backround(FloorAndSuch)/Dark/Darkness.yy",
   },
   "resourceVersion": "1.0",
   "name": "sDarkness",

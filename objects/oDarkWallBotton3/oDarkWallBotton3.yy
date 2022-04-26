@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "pCollidable",
-    "path": "objects/pCollidable/pCollidable.yy",
+    "name": "pDarkWalls3",
+    "path": "objects/pDarkWalls3/pDarkWalls3.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

@@ -7,7 +7,7 @@ if(instance_exists(oPlayer) and (room != rMenu)){
 		if(global.WaveNumber = 20) game_restart();
 		if (WaveDelay <= 0){
 			WaveDelay = WaveDelayReset; 
-			TileNum = instance_number(oDarkFloor);
+			TileNum = instance_number(oCementFloor);
 			TileQuantity = max(0,TileNum);
 			WaveStart = true;
 			global.WaveNumber++;
@@ -21,7 +21,7 @@ if(instance_exists(oPlayer) and (room != rMenu)){
 
 	if(WaveStart == true){
 			randomTile = irandom_range(1,TileNum);
-			Floors = instance_find(oDarkFloor,randomTile);
+			Floors = instance_find(oCementFloor,randomTile);
 			if(global.EnemyQuantity <= 0) {
 			if(!instance_exists(pShootable)){
 				other.WaveStart = false;
