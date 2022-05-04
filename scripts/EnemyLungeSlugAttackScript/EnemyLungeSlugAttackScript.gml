@@ -1,6 +1,14 @@
 
 function EnemyLungeSlugAttackScript(){
 
+if (flash > 0) {
+flash--;
+
+instance_create_layer(x,y,"Particles",oMobDeath);
+instance_create_layer(x,y,"Particles",oMobDeath2);
+
+}
+
 	sprite_index = sEnemyLungeSlugCoiled;
 
 	chargeup--;

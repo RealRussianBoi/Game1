@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sTeleportVines",
-    "path": "sprites/sTeleportVines/sTeleportVines.yy",
+    "name": "sPumpkinPortal",
+    "path": "sprites/sPumpkinPortal/sPumpkinPortal.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,7 +21,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
@@ -31,7 +31,7 @@
     "path": "folders/Objects/Transitions.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oTeleportVines",
+  "name": "oPumpkinPortalNext2",
   "tags": [],
   "resourceType": "GMObject",
 }
