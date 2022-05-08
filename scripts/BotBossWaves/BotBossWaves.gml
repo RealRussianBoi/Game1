@@ -1,16 +1,25 @@
 function BotBossWaves(){
+
+switch(BossNum){
 	
-	if(instance_exists(oPlayer)){
-		
-		with(instance_create_layer(oPlayer.x,oPlayer.y,"Portals",oPumpkinPortalNext)) {	
-			
-			
-			
-		}
-		
-			
-		
-		
-	}
+	case 2:
 	
+	break;
+	
+	case 3:
+	
+	break;
+		
 }
+
+
+
+
+
+
+
+
+
+
+}
+

@@ -77,7 +77,7 @@
   "nineSlice": null,
   "parent": {
     "name": "LungeSlugs",
-    "path": "folders/Sprites/Enemy/LungeSlugs.yy",
+    "path": "folders/Sprites/Enemy/Bots/LungeSlugs.yy",
   },
   "resourceVersion": "1.0",
   "name": "sEnemyLungeSlugCoiled",

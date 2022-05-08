@@ -16,10 +16,13 @@ if(instance_exists(oPlayer) and (room != rMenu)){
 			switch(global.WaveNumber) {
 				
 			case 6: BossWave = true;
-			BossNum = 1;
+			pShootable.BossChance = 75;
+			pShootableAirborne.BossChance = 75;
 			break;
 			
-			case 7: BossWave = false;
+			case 7:
+			pShootable.BossChance = irandom_range(0,75);
+			pShootableAirborne.BossChance = irandom_range(0,75);
 			break;
 			
 			case 12: BossWave = true;

@@ -77,7 +77,7 @@
   "nineSlice": null,
   "parent": {
     "name": "ElectroBot",
-    "path": "folders/Sprites/Enemy/ElectroBot.yy",
+    "path": "folders/Sprites/Enemy/Bots/ElectroBot.yy",
   },
   "resourceVersion": "1.0",
   "name": "sEnemyElectroBotRFlash",

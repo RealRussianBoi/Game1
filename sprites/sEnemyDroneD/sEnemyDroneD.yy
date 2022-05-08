@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Drones",
-    "path": "folders/Sprites/Enemy/Drones.yy",
+    "path": "folders/Sprites/Enemy/Bots/Drones.yy",
   },
   "resourceVersion": "1.0",
   "name": "sEnemyDroneD",

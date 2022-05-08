@@ -90,7 +90,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Ticks",
-    "path": "folders/Sprites/Enemy/Ticks.yy",
+    "path": "folders/Sprites/Enemy/Bots/Ticks.yy",
   },
   "resourceVersion": "1.0",
   "name": "sEnemyTickR",

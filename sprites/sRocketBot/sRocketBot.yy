@@ -149,7 +149,7 @@
   "nineSlice": null,
   "parent": {
     "name": "RocketBots",
-    "path": "folders/Sprites/Enemy/RocketBots.yy",
+    "path": "folders/Sprites/Enemy/Bots/RocketBots.yy",
   },
   "resourceVersion": "1.0",
   "name": "sRocketBot",

@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "EnergyBars",
-    "path": "folders/Sprites/EnergyBars.yy",
+    "name": "Player",
+    "path": "folders/Sprites/EnergyBars/Player.yy",
   },
   "resourceVersion": "1.0",
   "name": "sHealthBarBackround",
