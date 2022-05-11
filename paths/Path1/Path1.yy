@@ -4,8 +4,8 @@
   "precision": 4,
   "points": [],
   "parent": {
-    "name": "Transitions",
-    "path": "folders/Objects/Transitions.yy",
+    "name": "Parent Objects",
+    "path": "folders/Objects/Parent Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "Path1",
