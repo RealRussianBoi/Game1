@@ -75,6 +75,7 @@
     {"id":{"name":"oDarkWallTop2","path":"objects/oDarkWallTop2/oDarkWallTop2.yy",},"order":7,},
     {"id":{"name":"oTrashBag","path":"objects/oTrashBag/oTrashBag.yy",},"order":0,},
     {"id":{"name":"oBrickCornerDR","path":"objects/oBrickCornerDR/oBrickCornerDR.yy",},"order":0,},
+    {"id":{"name":"SamiS","path":"sprites/SamiS/SamiS.yy",},"order":12,},
     {"id":{"name":"oTeleportVines","path":"objects/oTeleportVines/oTeleportVines.yy",},"order":1,},
     {"id":{"name":"oEnemyBCollision","path":"objects/oEnemyBCollision/oEnemyBCollision.yy",},"order":1,},
     {"id":{"name":"sTeleportVines","path":"sprites/sTeleportVines/sTeleportVines.yy",},"order":1,},
