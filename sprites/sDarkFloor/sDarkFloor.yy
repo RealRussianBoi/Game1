@@ -193,7 +193,7 @@
   "nineSlice": null,
   "parent": {
     "name": "DarkFloor",
-    "path": "folders/Sprites/Backround(FloorAndSuch)/Dark/DarkFloor.yy",
+    "path": "folders/Sprites/Obstacles/Dark/DarkFloor.yy",
   },
   "resourceVersion": "1.0",
   "name": "sDarkFloor",

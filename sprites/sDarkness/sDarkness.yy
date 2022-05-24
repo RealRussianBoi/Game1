@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Darkness",
-    "path": "folders/Sprites/Backround(FloorAndSuch)/Dark/Darkness.yy",
+    "path": "folders/Sprites/Obstacles/Dark/Darkness.yy",
   },
   "resourceVersion": "1.0",
   "name": "sDarkness",

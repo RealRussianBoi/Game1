@@ -1,4 +1,4 @@
-global.WaveNumber = 1;
+global.WaveNumber = 0;
 WaveDelay = 60;
 WaveDelayReset = WaveDelay;
 WaveStart = false;

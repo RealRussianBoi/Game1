@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Floor Tiles",
-    "path": "folders/Sprites/Backround(FloorAndSuch)/Obstacles/Factory Sprites/Floor Tiles.yy",
+    "path": "folders/Sprites/Obstacles/Obstacles/Factory Sprites/Floor Tiles.yy",
   },
   "resourceVersion": "1.0",
   "name": "sCrackedTile",

@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Corners",
-    "path": "folders/Sprites/Backround(FloorAndSuch)/Industrial Bostacles/Corners.yy",
+    "path": "folders/Sprites/Obstacles/Industrial Obstacles/Corners.yy",
   },
   "resourceVersion": "1.0",
   "name": "sBrickCornerWallUR",

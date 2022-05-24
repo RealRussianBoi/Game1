@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Sides",
-    "path": "folders/Sprites/Backround(FloorAndSuch)/Industrial Bostacles/Sides.yy",
+    "path": "folders/Sprites/Obstacles/Industrial Obstacles/Sides.yy",
   },
   "resourceVersion": "1.0",
   "name": "sBricktWallSideRight",

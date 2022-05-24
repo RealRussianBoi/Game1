@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Obstacles",
-    "path": "folders/Sprites/Backround(FloorAndSuch)/Obstacles.yy",
+    "path": "folders/Sprites/Obstacles/Obstacles.yy",
   },
   "resourceVersion": "1.0",
   "name": "sWall",

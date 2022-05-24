@@ -400,7 +400,7 @@
   },
   "parent": {
     "name": "Dirt",
-    "path": "folders/Sprites/Backround(FloorAndSuch)/Obstacles/Dirt.yy",
+    "path": "folders/Sprites/Obstacles/Obstacles/Dirt.yy",
   },
   "resourceVersion": "1.0",
   "name": "sTileGroupReady",

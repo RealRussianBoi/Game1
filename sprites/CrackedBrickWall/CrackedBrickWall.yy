@@ -149,7 +149,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Tiles",
-    "path": "folders/Sprites/Backround(FloorAndSuch)/Obstacles/Factory Sprites/Tiles.yy",
+    "path": "folders/Sprites/Obstacles/Obstacles/Factory Sprites/Tiles.yy",
   },
   "resourceVersion": "1.0",
   "name": "CrackedBrickWall",

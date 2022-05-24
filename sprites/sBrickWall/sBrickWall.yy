@@ -157,7 +157,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Wall",
-    "path": "folders/Sprites/Backround(FloorAndSuch)/Industrial Bostacles/Wall.yy",
+    "path": "folders/Sprites/Obstacles/Industrial Obstacles/Wall.yy",
   },
   "resourceVersion": "1.0",
   "name": "sBrickWall",

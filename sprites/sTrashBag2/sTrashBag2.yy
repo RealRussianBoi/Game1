@@ -149,7 +149,7 @@
   "nineSlice": null,
   "parent": {
     "name": "FloorTrash",
-    "path": "folders/Sprites/Backround(FloorAndSuch)/Obstacles/FloorTrash.yy",
+    "path": "folders/Sprites/Obstacles/Obstacles/FloorTrash.yy",
   },
   "resourceVersion": "1.0",
   "name": "sTrashBag2",

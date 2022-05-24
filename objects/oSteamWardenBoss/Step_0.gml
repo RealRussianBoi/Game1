@@ -61,11 +61,11 @@ if(PhaseCooldown <= 0){
 		image_speed = 0;
 		AttackCooldown--;
 		
-		if(AttackCooldown <=0){
+		if(AttackCooldown <= 0){
 			
 			if(BurstCount = 0){
 				PhaseCooldown = PhaseCooldownReset;
-				image_index--;
+				image_speed = -1;
 				if(image_index = 0) sprite_index = sSteamWarden;
 				BurstCount = BurstCountReset;
 				WeaponSwitch = 2;
@@ -73,7 +73,7 @@ if(PhaseCooldown <= 0){
 			
 			AttackCooldown = AttackCooldownReset;
 			
-			with(instance_create_layer(x + choose(20, -20),y,"Bullets",oSteamWardenBullet)){
+			with(instance_create_layer(x + choose(20, -20),y,"PistolBullets",oSteamWardenBullet)){
 				
 				other.BurstCount--;
 				owner = other.id;
@@ -124,10 +124,6 @@ if(PhaseCooldown2 <= 0){
 }
 
 		break;
-
-
-
-
 
 
 

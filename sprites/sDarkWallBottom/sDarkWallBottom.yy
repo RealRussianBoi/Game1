@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Sides",
-    "path": "folders/Sprites/Backround(FloorAndSuch)/Dark/Sides.yy",
+    "path": "folders/Sprites/Obstacles/Dark/Sides.yy",
   },
   "resourceVersion": "1.0",
   "name": "sDarkWallBottom",

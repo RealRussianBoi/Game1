@@ -41,17 +41,17 @@ camera_set_view_pos(cam, x-view_w_half, y-view_h_half);
 
 
 
-if(layer_exists("Stars")){
+//if(layer_exists("Dirt")){
 	
-	layer_x("Stars",x/10);
+//	layer_x("Dirt",x/10);
 	
-}
+//}
 
-if(layer_exists("Stars")){
+//if(layer_exists("Dirt")){
 	
-	layer_y("Stars",y/10);
+//	layer_y("Dirt",y/10);
 	
-}
+//}
 
 
 

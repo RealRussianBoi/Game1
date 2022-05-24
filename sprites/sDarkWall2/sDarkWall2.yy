@@ -157,7 +157,7 @@
   "nineSlice": null,
   "parent": {
     "name": "DarkWall",
-    "path": "folders/Sprites/Backround(FloorAndSuch)/Dark/DarkWall.yy",
+    "path": "folders/Sprites/Obstacles/Dark/DarkWall.yy",
   },
   "resourceVersion": "1.0",
   "name": "sDarkWall2",

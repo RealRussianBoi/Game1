@@ -197,7 +197,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Floor",
-    "path": "folders/Sprites/Backround(FloorAndSuch)/Industrial Bostacles/Floor.yy",
+    "path": "folders/Sprites/Obstacles/Industrial Obstacles/Floor.yy",
   },
   "resourceVersion": "1.0",
   "name": "sCementFloor",
