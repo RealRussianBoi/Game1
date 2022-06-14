@@ -1,4 +1,4 @@
 
-function botbosswavespecial(){
-
+function BotBossWaveSpecial(){
+	
 }

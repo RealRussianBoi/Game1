@@ -38,8 +38,11 @@ instance_create_layer(x,y,"Particles",oMobDeath2);
 				if(image_index = 1){
 					damage += 1;
 					with(instance_create_layer(x + (64 * sign(image_xscale)),y,"Particles", oAttackCube)){
+						owner = other.id;
 						image_angle = point_direction(x,y,oPlayer.x,oPlayer.y);
 						damage = other.damage;
+						image_xscale = owner.image_xscale;
+						image_yscale = owner.image_yscale;
 					}
 					repeat(10){
 						with(instance_create_layer(x + (64 * sign(image_xscale)),y,"Particles", oBotSlugAttackParticles)){

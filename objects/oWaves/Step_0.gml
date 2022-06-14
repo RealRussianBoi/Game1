@@ -74,7 +74,7 @@ if(instance_exists(oPlayer) and (room != rMenu)){
 					}	
 				}	
 			} 
-		}	
+		} else BotBossWaveSpecial();	
 	}
 }
 
