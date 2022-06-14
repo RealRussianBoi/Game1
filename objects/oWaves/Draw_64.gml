@@ -8,7 +8,7 @@ if(room != rMenu){
 		draw_text((RES_W)/2 + 100, 100, "Time Till Wave: ");
 		draw_text((RES_W)/2 + 170, 100, string(WaveDelay / 60));
 		
-	} else if (WaveStart == true) and (BossWave == true){
+	} else if (WaveStart == true) and (global.BossWave == true){
 		draw_text((RES_W)/2 + 170, 100, "!Boss Wave!");
 		
 	} else if (WaveStart == true) {

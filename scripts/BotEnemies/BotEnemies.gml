@@ -11,8 +11,8 @@ function BotEnemies() {
 		
 		with(instance_create_layer(x,y,"Enemies", EnemyOptions)) {
 		
-		if (BossChance != 75) {
-				instance_change(object_get_parent(EnemyOptions),true);
+		if(BossChance != 75){
+			instance_change(object_get_parent(EnemyOptions),true);	
 		}
 		
 		with(instance_create_layer(x,y,"Instances", oEnemySpawnEffect)){
@@ -28,9 +28,9 @@ function BotEnemies() {
 	if(object_get_parent(object_get_parent(EnemyOptions)) = pShootableAirborne){
 		
 		with(instance_create_layer(x,y,"AirborneEnemies", EnemyOptions)) {
-		
-		if (BossChance != 75) {
-				instance_change(object_get_parent(EnemyOptions),true);
+
+		if(BossChance != 75){
+			instance_change(object_get_parent(EnemyOptions),true);	
 		}
 		
 		with(instance_create_layer(x,y,"Instances", oEnemySpawnEffect)){

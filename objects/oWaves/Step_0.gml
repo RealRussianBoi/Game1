@@ -11,28 +11,31 @@ if(instance_exists(oPlayer) and (room != rMenu)){
 			TileQuantity = max(0,TileNum);
 			WaveStart = true;
 			global.WaveNumber++;
-			global.EnemyQuantity = 10 + global.WaveNumber;
+			if(global.WaveNumber != 6 or 12 or 20){
+				global.EnemyQuantity = BaseEnemyNum + global.WaveNumber;
+			}
 			
 			switch(global.WaveNumber) {
 				
-			case 6: BossWave = true;
-			pShootable.BossChance = 75;
-			pShootableAirborne.BossChance = 75;
+			case 6: global.BossWave = true;
+			BaseEnemyNum = 6;
+			global.EnemyQuantity = BaseEnemyNum
 			break;
 			
-			case 7:
-			pShootable.BossChance = irandom_range(0,75);
-			pShootableAirborne.BossChance = irandom_range(0,75);
+			case 7: global.BossWave = false;
+			BaseEnemyNum = 10;
 			break;
 			
-			case 12: BossWave = true;
-			BossNum = 2;
+			case 12: global.BossWave = true;
+			BaseEnemyNum = 12;
+			global.EnemyQuantity = BaseEnemyNum;
 			break
 			
-			case 13: BossWave = false;
+			case 13: global.BossWave = false;
+			BaseEnemyNum = 10;
 			break;
 			
-			case 20: BossWave = true;
+			case 20: BossWaveSpecial = true;
 			BossNum = 3;
 			}
 
@@ -46,14 +49,13 @@ if(instance_exists(oPlayer) and (room != rMenu)){
 			randomTile = irandom_range(1,TileNum);
 			Floors = instance_find(oCementFloor,randomTile);
 			if(global.EnemyQuantity <= 0) {
-			if(!instance_exists(pShootable)){
+			if(!instance_exists(pShootable) and (!instance_exists(pShootableAirborne))){
 				other.WaveStart = false;
 				}
 			}
-			if(BossWave = false){
+			if(BossWaveSpecial = false){
 			if(global.EnemyQuantity > 0) { 
 			with(Floors){
-				
 				if(next_to_wall == true){
 					randomTile = irandom_range(0,TileNum);
 				} else if (next_to_wall == false){
@@ -62,26 +64,25 @@ if(instance_exists(oPlayer) and (room != rMenu)){
 						if(global.EnemyQuantity > 0){
 							global.EnemyQuantity--;
 							other.SpawnDelay = other.SpawnDelayReset;
-							BotEnemies();
+							if(global.BossWave = false){
+								BotEnemies();
+							} else {
+								BotBossWaves();
+							}
 							}
 						}	
 					}	
 				}	
-			}
-		} else {
-		
-		BotBossWaves();
-		
-		}
-	}	
-
-
+			} 
+		}	
+	}
+}
 
 
 
 
 
 #endregion
-}
+
 
 

@@ -1,4 +1,4 @@
-global.WaveNumber = 0;
+global.WaveNumber = 5;
 WaveDelay = 60;
 WaveDelayReset = WaveDelay;
 WaveStart = false;
@@ -9,7 +9,7 @@ SpawnDelayReset = SpawnDelay;
 randomTile = irandom_range(0,TileNum);
 Floors = instance_find(oCementFloor,TileQuantity);
 global.EnemyQuantity = 10 * global.WaveNumber;
-BossWave = false;
+global.BossWave = false;
 BossNum = 0;
-
-
+BaseEnemyNum = 10;
+BossWaveSpecial = false;
