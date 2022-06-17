@@ -1,10 +1,11 @@
 {
   "spriteId": {
-    "name": "sPlayerD",
-    "path": "sprites/sPlayerD/sPlayerD.yy",
+    "name": "sRevisedPlayerD",
+    "path": "sprites/sRevisedPlayerD/sRevisedPlayerD.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,

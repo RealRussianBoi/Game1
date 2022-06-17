@@ -50,17 +50,17 @@ if (vsp != 0) {
  
    image_speed = 1;
     if (vsp == 0) {
-        sprite_index = sPlayer;
+        sprite_index = sRevisedPlayer;
     } else {
-        sprite_index = sPlayerR;
+        sprite_index = sRevisedPlayerR;
     }
  
 } else {
     image_speed = 1;
     if (hsp == 0) {
-        sprite_index = sPlayer;
+        sprite_index = sRevisedPlayer;
     } else {
-        sprite_index = sPlayerR;
+        sprite_index = sRevisedPlayerR;
     }
 }
 

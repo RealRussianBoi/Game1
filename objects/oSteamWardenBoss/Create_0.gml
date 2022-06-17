@@ -1,3 +1,5 @@
+instance_deactivate_object(self);
+
 //@desc Healthbar Code
 
 hp = 75;

@@ -2,7 +2,7 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 0,
+  "origin": 4,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
@@ -25,8 +25,8 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"16400caf-82e9-4128-a153-1332e9f1320c","path":"sprites/sBotBossPortal/sBotBossPortal.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"16400caf-82e9-4128-a153-1332e9f1320c","path":"sprites/sBotBossPortal/sBotBossPortal.yy",},"LayerId":{"name":"97cf2214-3b55-473a-95d7-57c1877a46be","path":"sprites/sBotBossPortal/sBotBossPortal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"16400caf-82e9-4128-a153-1332e9f1320c","path":"sprites/sBotBossPortal/sBotBossPortal.yy",},"LayerId":{"name":"5fd9ce5e-06f3-4a4e-9bf7-402fbe8b2d28","path":"sprites/sBotBossPortal/sBotBossPortal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"16400caf-82e9-4128-a153-1332e9f1320c","path":"sprites/sBotBossPortal/sBotBossPortal.yy",},"LayerId":{"name":"97cf2214-3b55-473a-95d7-57c1877a46be","path":"sprites/sBotBossPortal/sBotBossPortal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sBotBossPortal","path":"sprites/sBotBossPortal/sBotBossPortal.yy",},"resourceVersion":"1.0","name":"16400caf-82e9-4128-a153-1332e9f1320c","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"7e084205-c80b-49ae-a86b-ce3b4ae5fc59","path":"sprites/sBotBossPortal/sBotBossPortal.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"7e084205-c80b-49ae-a86b-ce3b4ae5fc59","path":"sprites/sBotBossPortal/sBotBossPortal.yy",},"LayerId":{"name":"5fd9ce5e-06f3-4a4e-9bf7-402fbe8b2d28","path":"sprites/sBotBossPortal/sBotBossPortal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
@@ -37,7 +37,7 @@
     "spriteId": {"name":"sBotBossPortal","path":"sprites/sBotBossPortal/sBotBossPortal.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 5.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
@@ -60,8 +60,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 0,
-    "yorigin": 0,
+    "xorigin": 32,
+    "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sBotBossPortal","path":"sprites/sBotBossPortal/sBotBossPortal.yy",},
