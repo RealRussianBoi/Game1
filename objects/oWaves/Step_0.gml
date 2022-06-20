@@ -36,7 +36,6 @@ if(instance_exists(oPlayer) and (room != rMenu)){
 			break;
 			
 			case 20: BossWaveSpecial = true;
-			BossNum = 3;
 			}
 
 	}

@@ -1,11 +1,17 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sBotBossPortalParticle",
+    "path": "sprites/sBotBossPortalParticle/sBotBossPortalParticle.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "pParticles",
+    "path": "objects/pParticles/pParticles.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -26,11 +32,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Parent Objects",
-    "path": "folders/Objects/Parent Objects.yy",
+    "name": "Portal Particles",
+    "path": "folders/Objects/Particles and Effects/Portal Particles.yy",
   },
   "resourceVersion": "1.0",
-  "name": "pParticles",
+  "name": "oBotBossPortalParticle",
   "tags": [],
   "resourceType": "GMObject",
 }

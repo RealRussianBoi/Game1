@@ -10,6 +10,8 @@ randomTile = irandom_range(0,TileNum);
 Floors = instance_find(oCementFloor,TileQuantity);
 global.EnemyQuantity = 10 * global.WaveNumber;
 global.BossWave = false;
-BossNum = 0;
 BaseEnemyNum = 10;
 BossWaveSpecial = false;
+
+
+instance_deactivate_object(self);
