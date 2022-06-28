@@ -1,5 +1,5 @@
-with (other) {
-	hp -= owner.Attack1Damage;
+with (oPlayer) {
+	hp -= other.Attack1Damage;
 	hitfrom = other.direction;
 	
 	repeat(5){

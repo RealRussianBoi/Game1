@@ -1,4 +1,4 @@
-global.WaveNumber = 5;
+global.WaveNumber = 1;
 WaveDelay = 60;
 WaveDelayReset = WaveDelay;
 WaveStart = false;
@@ -12,6 +12,4 @@ global.EnemyQuantity = 10 * global.WaveNumber;
 global.BossWave = false;
 BaseEnemyNum = 10;
 BossWaveSpecial = false;
-
-
 instance_deactivate_object(self);

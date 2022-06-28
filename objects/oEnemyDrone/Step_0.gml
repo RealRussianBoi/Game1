@@ -4,7 +4,7 @@ if(instance_exists(oPlayer)) {//1
 	var dirX = sign(oPlayer.x - x);
 	var dirY = sign(oPlayer.y - y);
 	var movement = (dirX + dirY);
-	var dToPlayer = min(300,(300 * (size * 1.1)));
+	var dToPlayer = 300;
 	hsp = dirX * stopmoving;
 	vsp = dirY * stopmoving;
 

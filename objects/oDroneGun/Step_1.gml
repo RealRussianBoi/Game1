@@ -1,4 +1,4 @@
-if(BurstCount >= 4) WillShoot = false;
+if(BurstCount = 4) WillShoot = false;
 if(WillShoot = false) WillShootReset++;
 if (WillShootReset >= 180){
 	WillShoot = true;

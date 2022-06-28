@@ -25,11 +25,15 @@ if(PhaseCooldown <= 0){
 			
 			AttackCooldown = AttackCooldownReset;
 			
-			with(instance_create_layer(x + choose(20, -20),y,"Bullets",oSteamWardenBullet)){
+			with(instance_create_layer(x + choose(20, -20),y,"PistolBullets",oSteamWardenBullet)){
 				
 				other.BurstCount--;
 				owner = other.id;
-				spd = 15 * other.size;
+				image_xscale = 5;
+				image_yscale = 5;
+				image_angle = point_direction(x,y,oPlayer.x,oPlayer.y);
+				Attack1Damage = other.Attack1Damage
+				spd = 25 * other.size;
 				direction = point_direction(x,y,oPlayer.x,oPlayer.y);
 						
 			}
