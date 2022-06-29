@@ -14,21 +14,3 @@ draw_sprite(sHealthBarOutline,0,healthbar_x,healthbar_y_small);
 	}
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

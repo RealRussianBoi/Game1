@@ -31,9 +31,7 @@
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
-  "overriddenProperties": [
-    {"propertyId":{"name":"hp","path":"objects/pStationaryBosses/pStationaryBosses.yy",},"objectId":{"name":"pStationaryBosses","path":"objects/pStationaryBosses/pStationaryBosses.yy",},"value":"100","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-  ],
+  "overriddenProperties": [],
   "parent": {
     "name": "Bosses",
     "path": "folders/Objects/Enemies/Bosses.yy",

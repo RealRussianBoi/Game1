@@ -4,6 +4,7 @@ var once = false;
 
 if(once = false){
 	once = true;
+	instance_deactivate_object(self)
 	with (oSteamWardenBoss){
 		repeat(100){
 			instance_create_layer(x,y,"Particles", oSteamWardenAppearanceParticle)

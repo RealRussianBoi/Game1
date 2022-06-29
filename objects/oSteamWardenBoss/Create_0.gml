@@ -2,14 +2,14 @@ instance_deactivate_object(self);
 
 //@desc Healthbar Code
 
-hp = 75;
+hp = 2;
 hp_max = hp;
 
 healthbar_width = 41;
 healthbar_height = 240;
-healthbar_x = (view_wport[0]/10) - 125;
-healthbar_y = view_yport[0] + 125;
-healthbar_y_small = view_yport[0] + 125;
+healthbar_x = 10;
+healthbar_y = 150;
+healthbar_y_small = 150;
 
 //Attack 1
 
@@ -28,7 +28,7 @@ BurstCountReset = BurstCount;
 
 Attack2Damage = 5;
 
-PhaseCooldown2 = 300;
+PhaseCooldown2 = 60;
 PhaseCooldown2Reset = PhaseCooldown2;
 
 BurstCount2 = 5;

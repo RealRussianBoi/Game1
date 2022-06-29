@@ -1,10 +1,15 @@
-image_yscale = irandom_range(0.9,1.1);
+
 
 if(image_index = 5){
+	
 	image_speed = 0;
+
+	laserStop++;
+	if(laserStop >= 30) instance_destroy();
+	
 	if(place_meeting(x,y,oPlayer)){
 		with (oPlayer) {
-	hp -= owner.Attack2Damage;
+	hp -= other.owner.Attack2Damage;
 	hitfrom = other.direction;
 	
 	repeat(5){
