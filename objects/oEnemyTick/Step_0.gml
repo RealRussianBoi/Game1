@@ -16,7 +16,7 @@ if(instance_exists(oPlayer)) {//1
 		dirY = 0;
 		movement = 0;
 }
-	
+
 	if (place_meeting(x+hsp,y,pCollidable)) {
 	hsp = 0;
 } else {
