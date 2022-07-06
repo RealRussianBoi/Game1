@@ -3,7 +3,7 @@ if(instance_exists(oPlayer)) {//1
 
 	var dirX = sign(oPlayer.x - x);
 	var dirY = sign(oPlayer.y - y);
-	var movement = (dirX + dirY);
+	var movement = ((dirX * 5) + (dirY*3));
 	hsp = dirX * stopmoving;
 	vsp = dirY * stopmoving;
 
@@ -62,6 +62,19 @@ instance_create_layer(x,y,"Particles",oMobDeath2);
 	flash--;
 	
 } 
+
+if (flash = 0){
+
+	if (movement = 0){
+		sprite_index = sEnemyTick;
+	} else {
+		sprite_index = sEnemyTickR;	
+	}
+	
+}
+
+
+
 
 
 
