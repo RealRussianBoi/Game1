@@ -28,7 +28,7 @@ BurstCountReset = BurstCount;
 
 Attack2Damage = 5;
 
-PhaseCooldown2 = 60;
+PhaseCooldown2 = 90;
 PhaseCooldown2Reset = PhaseCooldown2;
 
 BurstCount2 = 5;

@@ -62,10 +62,13 @@ if(PhaseCooldown2 <= 0){
 			
 			if(BurstCount2 = 0){
 				PhaseCooldown2 = PhaseCooldown2Reset;
-				image_speed = -1;
-				if(image_index = 0) sprite_index = sSteamWarden;
 				BurstCount2 = BurstCount2Reset;
-				WeaponSwitch = 1;
+				
+				if(!instance_exists(oSteamWardenLaser)){
+					repeat(100){
+					instance_create_layer(x + choose(40, -40),y,"PistolBullets",oGunSmoke)
+					}
+				}
 			}
 			
 			AttackCooldown = AttackCooldownReset;

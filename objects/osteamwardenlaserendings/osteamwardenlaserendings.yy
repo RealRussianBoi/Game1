@@ -1,14 +1,17 @@
 {
   "spriteId": {
-    "name": "sSteamWardenLaser",
-    "path": "sprites/sSteamWardenLaser/sSteamWardenLaser.yy",
+    "name": "sSteamWardenLaserEndings",
+    "path": "sprites/sSteamWardenLaserEndings/sSteamWardenLaserEndings.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "oSteamWardenLaser",
+    "path": "objects/oSteamWardenLaser/oSteamWardenLaser.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -23,8 +26,8 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,7 +36,7 @@
     "path": "folders/Objects/Guns&Ammo/Ammo/EmenyAmmo/Steam Warden laser Parts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oSteamWardenLaser",
+  "name": "oSteamWardenLaserEndings",
   "tags": [],
   "resourceType": "GMObject",
 }
